@@ -13,3 +13,6 @@ cd ~
 mkdir -p ~/.fonts
 mv path/to/extracted-fonts/*.ttf ~/.fonts/
 fc-cache -fv
+
+For live grep in telescope run the following in a terminal:
+sudo apt install ripgrep
