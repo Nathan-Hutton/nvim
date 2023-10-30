@@ -1,4 +1,12 @@
-This is here since we inevitably won't remember how to configure anything. clone this into ~/.config, so it will look like ~/.config/nvim
+This is here since we inevitably won't remember how to configure anything. 
+
+Download neovim from https://github.com/neovim/neovim/releases
+Use the most recent tar file and run:
+tar xzvf nvim-linux64.tar.gz
+make sure to set up a symbolic link or make an alias in .bashrc
+Clone this repo into ~/.config neovim, so it will look like ~/.config/nvim
+
+Next:
 1. Open neovim and run :PackerSync
 2. Run :PackerInstall
 3. Run :PackerUpdate
