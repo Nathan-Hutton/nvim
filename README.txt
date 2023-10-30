@@ -1,4 +1,4 @@
-This is here since we inevitably won't remember how to configure anything
+This is here since we inevitably won't remember how to configure anything. clone this into ~/.config, so it will look like ~/.config/nvim
 1. Open neovim and run :PackerSync
 2. Run :PackerInstall
 3. Run :PackerUpdate
@@ -16,3 +16,12 @@ fc-cache -fv
 
 For live grep in telescope run the following in a terminal:
 sudo apt install ripgrep
+
+If you already have neovim configurations installed and are getting issues then do this:
+1. sudo apt remove --purge neovim
+2. rm -rf ~/.config/nvim/
+3. rm -rf ~/.local/share/nvim/
+4. rm -rf ~/.local/state/nvim/
+5. find / -name "*nvim*" 2>/dev/null
+Then reinstall neovim and try again. 
+
